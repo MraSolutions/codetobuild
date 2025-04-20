@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Your Online Presence | Expert Web & SEO Solutions</title>
+    <meta name="description" content="Boost your business with expert custom web development, WordPress solutions, SEO services, and social media marketing. Get free and premium website templates tailored for your needs.">
+    <meta name="keywords" content="custom web development, WordPress development, SEO services, social media marketing, website templates, free templates, premium templates, business websites, digital agency, online marketing, website design, web solutions">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="assets/img/fav.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Pre Loader Section Start -->
+    <div id="preloader">
+      <div class="loader"></div>
+
+      <style>
+
+        #preloader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #e0e7ff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+        }
+
+        .loader {
+          border: 6px solid #3b82f6;
+          border-top: 6px solid #1e3a8a;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+
+      </style>
+    </div>
+    <!-- Pre Loader Section End -->
+    
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mra <span style="color: rgb(55, 85, 255);">.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/img/menu.png" width="40">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">WordPress Development</a></li>
+                  <li><a class="dropdown-item" href="#">Custom Web Development</a></li>
+                  <li><a class="dropdown-item" href="#">SEO Services</a></li>
+                  <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Themes (Free & Paid)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="#" class="bt-works">View Works</a>
+            </form>
+          </div>
+        </div>
+    </nav><!-- Navbar Section End -->
+
+
+    <!-- Hero Section Start -->
+    <section class="hero py-5">
+      <div class="container text-center">
+        <h5 class="text-primary fw-bold"><span class="now">Now</span> Available for New Work</h5>
+    
+        <h1 class="display-4 fw-bold flowing-gradient-text text-shadow-blue drip-heading">
+          Your Digital Growth Partner <br> Build, Optimize & Scale
+        </h1>
+    
+        <p>
+          We craft high-performance websites and digital solutions. <br>
+          Get custom web development, WordPress, SEO & marketing.
+        </p>
+    
+        <!-- Button row -->
+        <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap mt-4">
+          <a href="tel:+94765516536" class="bt-call px-4 py-2">
+            📞 Call Now
+          </a>
+          <a href="assets/img/Mra.pdf" class="bt-download px-4 py-2" id="downloadCvBtn">
+            📄 Download CV
+          </a>          
+        </div>
+      </div>
+
+     <!-- Modal -->
+<div id="successModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p>✅ CV has been downloaded successfully!</p>
+  </div>
+</div>
+
+    <style>
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        justify-content: center;
+        align-items: center;
+      }
+
+      .modal-content {
+        background-color: #fff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        max-width: 400px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      }
+
+      .close {
+        float: right;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+    </style>
+    </section><!-- Hero Section End -->
+    
+
+    <!-- Stats Section Start -->
+    <section class="stats-section py-5 text-white bg-primary text-center mb-4">
+      <div class="container">
+        <div class="row g-4">
+    
+          <div class="col-md-3 col-6">
+            <h2 class="stat-number" data-start="18" data-end="34" data-speed="1500">0</h2>
+            <p>Clients Worked With</p>
+          </div>
+    
+          <div class="col-md-3 col-6">
+            <h2 class="stat-number" data-start="25" data-end="48" data-speed="2000">0</h2>
+            <p>Projects Completed</p>
+          </div>
+    
+          <div class="col-md-3 col-6">
+            <h2 class="stat-number" data-start="2" data-end="8" data-speed="3000">0</h2>
+            <p>Awards Achieved</p>
+          </div>
+    
+          <div class="col-md-3 col-6">
+            <h2 class="stat-number" data-start="1" data-end="2" data-speed="2500">0</h2>
+            <p>Years of Experience</p>
+          </div>
+    
+        </div>
+      </div>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const counters = document.querySelectorAll('.stat-number');
+          let hasAnimated = false;
+      
+          function animateCounters() {
+            if (hasAnimated) return;
+      
+            counters.forEach(counter => {
+              const start = +counter.getAttribute('data-start');
+              const end = +counter.getAttribute('data-end');
+              const speed = +counter.getAttribute('data-speed');
+      
+              let current = start;
+              const step = Math.ceil((end - start) / (speed / 30)); // 30ms per update
+      
+              const interval = setInterval(() => {
+                current += step;
+                if (current >= end) {
+                  counter.textContent = end;
+                  clearInterval(interval);
+                } else {
+                  counter.textContent = current;
+                }
+              }, 30);
+            });
+      
+            hasAnimated = true;
+          }
+      
+          // Trigger when section is in view
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) animateCounters();
+            });
+          }, { threshold: 0.5 });
+      
+          const statsSection = document.querySelector('.stats-section');
+          if (statsSection) {
+            observer.observe(statsSection);
+          }
+        });
+      </script>
+      
+      
+    </section><!-- /Stats Section End -->
+    
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="portfolio section py-5">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="text-center fs-1 fw-600">Portfolio</h2>
+        <div class="custom-divider mx-auto my-3"></div>
+        <p class="text-center fs-6">
+          Discover some of the standout websites I’ve designed — crafted with creativity, precision, and a passion for clean, modern web design.
+        </p>        
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+    
+          <!-- Category Filters -->
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-business">Business</li>
+            <li data-filter=".filter-ecommerce">E-commerce</li>
+            <li data-filter=".filter-portfolio">Portfolio</li>
+            <li data-filter=".filter-landing">Landing Page</li>
+            <li data-filter=".filter-blog">Blog</li>
+            <li data-filter=".filter-news">News</li>
+            <li data-filter=".filter-educational">Educational</li>
+          </ul><!-- End Filters -->
+    
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+    
+            <!-- Business Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-business">
+              <img src="assets/img/portfolio/Dashboard.jpg" class="img-fluid" alt="Business Website">
+              <div class="portfolio-info">
+                <h4>Corporate Site</h4>
+                <p>Clean and professional layout for a consulting firm</p>
+                <a href="assets/img/portfolio/business-1.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-business"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+    
+            <!-- E-commerce Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ecommerce">
+              <img src="assets/img/E-commerce -1.png" class="img-fluid" alt="Online Store">
+              <div class="portfolio-info">
+                <h4>UrbanCart</h4>
+                <p>Modern e-commerce template for digital and physical products</p>
+                <a href="assets/img/portfolio/Facebook-01.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-ecommerce"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+    
+            <!-- Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-portfolio">
+              <img src="assets/img/portfolio/Instagram-01.webp" class="img-fluid" alt="Portfolio Site">
+              <div class="portfolio-info">
+                <h4>Freelancer Portfolio</h4>
+                <p>Minimal design for a personal creative portfolio</p>
+                <a href="assets/img/portfolio/Instagram-01.webp" class="glightbox preview-link" data-gallery="portfolio-gallery-portfolio"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+    
+            <!-- Landing Page Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-landing">
+              <img src="assets/img/portfolio/Portfolio.avif" class="img-fluid" alt="Landing Page">
+              <div class="portfolio-info">
+                <h4>Product Launch Page</h4>
+                <p>High-conversion landing page for new apps</p>
+                <a href="assets/img/portfolio/Portfolio.avif" class="glightbox preview-link" data-gallery="portfolio-gallery-landing"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+    
+            <!-- Blog Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-blog">
+              <img src="assets/img/portfolio/Travelagency.jpg" class="img-fluid" alt="Blog Template">
+              <div class="portfolio-info">
+                <h4>Personal Blog</h4>
+                <p>Simple and stylish blog layout for writers</p>
+                <a href="assets/img/portfolio/Travelagency.jpg" class="glightbox preview-link" data-gallery="portfolio-gallery-blog"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+    
+            <!-- Educational Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-educational">
+              <img src="assets/img/portfolio/WP-01.png" class="img-fluid" alt="Educational Website">
+              <div class="portfolio-info">
+                <h4>Online Learning</h4>
+                <p>eLearning platform with modern design</p>
+                <a href="assets/img/portfolio/WP-01.png" class="glightbox preview-link" data-gallery="portfolio-gallery-educational"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+    
+            <!-- Add more categories similarly -->
+    
+          </div><!-- End Isotope Container -->
+    
+        </div>
+      </div>
+    
+    </section><!-- /Portfolio Section End -->
+
+
+    <!-- About Section Start -->
+    <section id="about" class="about section py-5">
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      
+      <div class="col-lg-6 position-relative align-self-start order-lg-last order-first" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/img/1.jpg" class="img-fluid about-img-styled" alt="Services Overview">
+      </div>
+
+      <div class="col-lg-6 content order-last order-lg-first" data-aos="fade-up" data-aos-delay="100">
+        <h3>What I Do</h3> 
+        <div class="custom-divider me-auto my-3"></div>
+        <p>
+          I help businesses thrive online with a blend of creative design and technical precision. From stunning WordPress sites to marketing that drives results — your digital goals are covered.
+        </p> 
+        <ul>
+          <li>
+            <i class="bi bi-wordpress icon-style"></i> 
+            <div>
+              <h5>WordPress Web Design</h5>
+              <p>Professional and responsive WordPress websites designed for performance, mobile-friendliness, and user engagement.</p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-person-circle icon-style"></i> 
+            <div>
+              <h5>Custom Web Development</h5>
+              <p>Custom-coded websites tailored to your business, using modern technologies for full functionality and scalability.</p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-easel2 icon-style"></i> 
+            <div>
+              <h5>UI/UX Design</h5>
+              <p>Clean and user-friendly interface designs that boost usability, improve experience, and leave a strong impression.</p>
+            </div>
+          </li>
+          <li>
+            <i class="bi bi-share icon-style"></i> 
+            <div>
+              <h5>Social Media Marketing</h5>
+              <p>Engage your audience and grow your brand with effective strategies across platforms like Instagram and Facebook.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+    </section><!-- /About Section End -->
+    
+    
+    <!-- Why Us Section Start -->
+    <section id="why-us" class="why-us section">
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-box">
+          <h3>Why Choose My Services?</h3> 
+          <p>
+            I build modern, responsive websites and marketing strategies that help businesses grow, connect, and convert.
+          </p>
+          <div class="text-center">
+            <a href="#portfolio" class="more-btn"><span>View My Work</span> <i class="bi bi-chevron-right"></i></a>
+          </div>
+        </div>
+      </div><!-- End Why Box -->
+
+      <div class="col-lg-8 d-flex align-items-stretch">
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-xl-4">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-wordpress"></i> 
+              <h4>WordPress Design</h4> 
+              <p>Beautiful, fast, and mobile-ready WordPress websites tailored to your brand.</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-code-slash"></i> 
+              <h4>Custom Development</h4> 
+              <p>Fully functional websites with custom features built to meet your exact goals.</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+          <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-share"></i> 
+              <h4>Social Media Marketing</h4> 
+              <p>Effective content strategies that boost reach, traffic, and engagement online.</p>
+            </div>
+          </div><!-- End Icon Box -->
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+    </section><!-- /Why Us Section End -->
+
+    
+    <!-- Call To Action Section Start -->
+    <section id="call-to-action" class="call-to-action section dark-background mt-4 mb-4">
+    
+      <img src="assets/img/banner-01.jpg" class="img-fluid">
+    
+      <div class="container">
+    
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Ready to Bring Your Vision to Life?</h3> 
+            <p>If you're looking for creative and impactful designs that tell your brand's story, let's work together! I specialize in bringing ideas to life through design, and I'm excited to help you create something amazing.</p> <!-- Focused on collaboration and creativity -->
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Get In Touch</a> 
+          </div>
+        </div>
+    
+      </div>
+    
+    </section><!-- /Call To Action Section End -->
+    
+    
+    <!-- Services Section Start -->
+    <section id="services" class="services section py-5">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <div class="custom-divider me-auto my-3"></div>
+    <p>Professional web solutions tailored to grow your business online</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-wordpress"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link" style="text-decoration: none;">
+            <h3>WordPress Web Design</h3>
+          </a>
+          <p>Beautiful, responsive WordPress sites optimized for performance and SEO.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-code-slash"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link" style="text-decoration: none;">
+            <h3>Custom Web Development</h3>
+          </a>
+          <p>Fully custom-built websites using modern technologies tailored to your needs.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-phone"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link" style="text-decoration: none;">
+            <h3>UI/UX Design</h3>
+          </a>
+          <p>Intuitive interfaces and seamless experiences focused on user engagement.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-megaphone"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link" style="text-decoration: none;">
+            <h3>Social Media Marketing</h3>
+          </a>
+          <p>Boost your online presence with strategic content and audience targeting.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-bar-chart-line"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link" style="text-decoration: none;">
+            <h3>SEO Services</h3>
+          </a>
+          <p>Improve search rankings, drive organic traffic, and grow your business with expert SEO techniques.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-shield-check"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link" style="text-decoration: none;">
+            <h3>Website Maintenance</h3>
+          </a>
+          <p>Keep your website secure, updated, and performing at its best with ongoing support and maintenance.</p>
+        </div>
+      </div><!-- End Service Item -->
+      
+
+    </div>
+
+  </div>
+
+    </section><!-- /Services Section End -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section py-lg-5">
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="content px-xl-5">
+          <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
+          <p>
+            Have questions about my services? Here are answers to some common queries about website development, WordPress design, SEO, and digital marketing. Need more info? Just contact me!
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="faq-container">
+          <div class="faq-item faq-active">
+            <h3><span class="num">1.</span> <span>What services do you offer?</span></h3>
+            <div class="faq-content">
+              <p>I offer Full Stack Web Development, WordPress Website Design, SEO optimization, and Social Media Marketing. Whether you need a new website, more traffic, or better online branding, I’ve got you covered.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">2.</span> <span>Do you create custom websites from scratch?</span></h3>
+            <div class="faq-content">
+              <p>Yes, I build fully custom websites using HTML, CSS, JavaScript, Node.js, and more. These sites are tailored to your brand and business needs, mobile-friendly, and optimized for performance.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">3.</span> <span>Can you design my WordPress website?</span></h3>
+            <div class="faq-content">
+              <p>Absolutely. I offer custom WordPress design using Bootstrap and JavaScript for a professional look. I also provide plugin setup, speed optimization, and content customization.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">4.</span> <span>Is hosting included in your packages?</span></h3>
+            <div class="faq-content">
+              <p>I can help you set up reliable hosting and domain registration. If you choose a full website package, hosting, domain setup, and SSL configuration are included for your convenience.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">5.</span> <span>Do you provide SEO services?</span></h3>
+            <div class="faq-content">
+              <p>Yes! I provide on-page SEO, technical SEO, and keyword research services to improve your website’s Google ranking and drive organic traffic. Monthly SEO plans are also available.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">6.</span> <span>What’s included in your Social Media Marketing service?</span></h3>
+            <div class="faq-content">
+              <p>My service includes content creation, post scheduling, ad campaigns, and audience engagement strategies for platforms like Instagram, Facebook, and LinkedIn to boost your online presence.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">7.</span> <span>Do you offer post-launch support?</span></h3>
+            <div class="faq-content">
+              <p>Yes, I provide free support for up to 6 months after launch. This includes minor updates, performance checks, and bug fixes. Extended maintenance packages are available as well.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+          <div class="faq-item">
+            <h3><span class="num">8.</span> <span>Can I request additional features later?</span></h3>
+            <div class="faq-content">
+              <p>Of course! Whether it's adding an online store, a blog, or integrating third-party services, you can request upgrades anytime. I make sure your site grows as your business grows.</p>
+            </div>
+            <i class="faq-toggle bi bi-chevron-right"></i>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+    </section><!-- /Faq Section -->
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background py-5">
+
+  <div class="container">
+
+    <div class="row align-items-center">
+
+      <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+        <h3>What Our Clients Say</h3>
+        <p>
+          We’re committed to delivering exceptional results. Here’s what our clients have to say about their experiences working with us:
+        </p>
+      </div>
+
+      <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <!-- Testimonial 1 - Ethan Parker (Custom Web Development) -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <!-- First-letter image for Ethan -->
+                  <div class="testimonial-img flex-shrink-0" style="background-color:#00aaff; color:#fff; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 24px;">
+                    E
+                  </div>
+                  <div>
+                    <h3>Ethan Parker</h3>
+                    <h4>Founder, Parker Digital Solutions</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>They helped us with custom web development, and the result exceeded expectations! Their team listened to our needs and delivered a modern, highly functional website tailored to our business. I couldn't be happier with the service!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!-- Testimonial 2 - Olivia Johnson (WordPress Web Design) -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <!-- First-letter image for Olivia -->
+                  <div class="testimonial-img flex-shrink-0" style="background-color:#ff6f61; color:#fff; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 24px;">
+                    O
+                  </div>
+                  <div>
+                    <h3>Olivia Johnson</h3>
+                    <h4>Owner, Olivia's Creative Space</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Working with this team was an absolute pleasure. They created a beautiful WordPress website for my business that is easy to use and manage. The design is modern and responsive, and they gave me the perfect platform to grow my brand.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!-- Testimonial 3 - James Mitchell (SEO Services) -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <!-- First-letter image for James -->
+                  <div class="testimonial-img flex-shrink-0" style="background-color:#5c6bc0; color:#fff; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 24px;">
+                    J
+                  </div>
+                  <div>
+                    <h3>James Mitchell</h3>
+                    <h4>CEO, Mitchell Enterprises</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>The SEO services I received were exceptional. Our website traffic increased significantly, and we started seeing real results in search rankings. They really know how to optimize a site to drive traffic and conversions. Highly recommend!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <!-- Testimonial 4 - Isabella Clark (Social Media Marketing) -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="d-flex">
+                  <!-- First-letter image for Isabella -->
+                  <div class="testimonial-img flex-shrink-0" style="background-color:#e91e63; color:#fff; width: 60px; height: 60px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 24px;">
+                    I
+                  </div>
+                  <div>
+                    <h3>Isabella Clark</h3>
+                    <h4>Marketing Director, Clark & Co.</h4>
+                    <div class="stars">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      <i class="bi bi-star-fill"></i>
+                    </div>
+                  </div>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>We hired them for social media marketing, and they did an outstanding job. Our social media presence has grown immensely, and we've seen an increase in leads and engagement. Their content strategies are spot on and make a real difference!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+    </section><!-- /Testimonials Section -->
+
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact section py-5">
+  <div class="container section-title" data-aos="fade-up">
+    <h2 class="text-center fs-1 fw-600">Contact</h2>
+    <div class="custom-divider mx-auto my-3"></div>
+      <p class="text-center fs-6">
+        Get in touch with Me for all your WordPress and Custom Web Design needs — let’s build something amazing together!
+      </p>
+  </div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      <div class="col-lg-6">
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="info-item" data-aos="fade" data-aos-delay="200">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <p>Kandy, Sri Lanka</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item" data-aos="fade" data-aos-delay="300">
+              <i class="bi bi-telephone"></i>
+              <h3>Call Me</h3>
+              <p>+94783788027</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item" data-aos="fade" data-aos-delay="400">
+              <i class="bi bi-envelope"></i>
+              <h3>mail Me</h3>
+              <p>mraarshaque1997@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item" data-aos="fade" data-aos-delay="500">
+              <i class="bi bi-clock"></i>
+              <h3>Open Hours</h3>
+              <p>Monday - Friday</p>
+              <p>9:00 AM - 06:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <form id="contact-form" class="contact-form" method="POST" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+
+            <div class="col-md-6">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="col-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="col-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="col-12 text-center">
+              <div class="loading">Loading...</div>
+              <div class="error-message"></div>
+              <!--<div class="sent-message">Your message has been sent. Thank you!</div>-->
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    </section><!-- Contact Section Ends -->
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer" class="footer position-relative light-background py-5">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Mra</span>
+            </a>
+            <p>I specialize in creating custom websites, web applications, and digital solutions to help businesses and brands thrive online. Let's collaborate on bringing your digital vision to life!</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://twitter.com/YourTwitterHandle" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://facebook.com/YourFacebookHandle" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://instagram.com/YourInstagramHandle" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://wa.me/+94783788027" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+    
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Me</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Wordpress Designs</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">SEO Services</a></li>
+              <li><a href="#">Social Media Marketing</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-3 col-md-12 footer-contact">
+            <h4>Contact Info</h4>
+            <p>Kandy, Sri Lanka</p>
+            <p><strong>Phone:</strong> <span>+94783788027</span></p>
+            <p><strong>Email:</strong> <span>mraarshaque1997@gmail.com</span></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container mt-4 text-center">
+        <p>© 2025 <strong>Portfolio</strong>. All Rights Reserved</p>
+        <div class="credits">
+          Designed by <a href="#">Mra Arshaque</a>
+        </div>
+      </div>
+    </footer><!-- Footer Section End -->
+    
+  
+    
+
+
+
+  
+
+    <!-- AI Chat Button -->
+    <!--<button id="aiChatBtn" title="Chat" onclick="toggleChat()">
+      <i class="bi bi-robot" style="font-size: 24px;"></i>
+    </button>-->
+
+    <!-- AI Chat Popup -->
+    <!--<div id="aiChatPopup" class="chat-popup">
+      <button id="aiChatClose" onclick="closeChat()">×</button>
+      <div class="header">Chat with Us!</div>
+        <div class="messages" id="chatMessages"></div>
+          <input type="text" id="userInput" placeholder="Type your message..." onkeypress="if(event.key === 'Enter') handleUserInput()">
+          <button onclick="handleUserInput()">Send</button>
+    </div>-->
+
+
+
+
+
+    
+    
+    <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+
+    
+</body>
+
+<!-- Pre-Loader Javascript -->
+<script>
+  window.addEventListener("load", function () {
+    document.getElementById("preloader").style.display = "none";
+  });
+</script>
+<!-- Pre-Loader Javascript -->
+
+
+<!-- Scroll-Top Javascript -->
+<script>
+  const scrollBtn = document.getElementById("scrollTopBtn");
+  window.onscroll = function () {
+    scrollBtn.style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
+  };
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+<!-- Scroll-Top Javascript -->
+
+
+<!-- CV Download Javascript -->
+<script>
+  document.getElementById('downloadCvBtn').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const cvUrl = 'assets/img/Mra.pdf';
+
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'MraCV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    showModal();
+  });
+
+  function showModal() {
+    const modal = document.getElementById('successModal');
+    modal.style.display = 'flex';
+
+    setTimeout(closeModal, 5000);
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('successModal');
+    modal.style.display = 'none';
+  }
+</script>
+<!-- CV Download Javascript -->
+
+
+<!-- FAQS Open & Close Javascript -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const faqItems = document.querySelectorAll(".faq-item");
+
+    faqItems.forEach((item) => {
+      const question = item.querySelector("h3");
+      const toggleIcon = item.querySelector(".faq-toggle");
+
+      question.addEventListener("click", () => {
+        item.classList.toggle("faq-active");
+      });
+
+      toggleIcon.addEventListener("click", () => {
+        item.classList.toggle("faq-active");
+      });
+    });
+  });
+</script>
+<!-- FAQS Open & Close Javascript -->
+
+
+<!-- Swiper Javascript -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.init-swiper').forEach((swiperContainer) => {
+      const configScript = swiperContainer.querySelector('.swiper-config');
+      if (configScript) {
+        const config = JSON.parse(configScript.textContent);
+        new Swiper(swiperContainer, config);
+      }
+    });
+  });
+</script>
+<!-- Swiper Javascript -->
+
+<!-- Swiper JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
